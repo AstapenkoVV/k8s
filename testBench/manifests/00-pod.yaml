@@ -2,8 +2,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name:my-first-pod
- namespace: wokr
+ name: my-first-pod
+ namespace: work
 spec:
  containers:
   - name: nginx
