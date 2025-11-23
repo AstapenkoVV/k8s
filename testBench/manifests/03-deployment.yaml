@@ -6,7 +6,7 @@ metadata:
   namespace: work
   labels:
     app: &app nginx
-    version: &versoin 1.29.3
+    version: &version 1.29.3
 spec:
   replicas: 3
   selector:
