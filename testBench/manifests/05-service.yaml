@@ -29,7 +29,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app.kubernetes.io/app: *app
+      app.kubernetes.io/name: *app
       app.kubernetes.io/version: *version
   template:
     metadata:
