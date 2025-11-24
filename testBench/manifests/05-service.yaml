@@ -23,7 +23,7 @@ metadata:
   name: my-first-deployment
   namespace: work
   labels:
-    app.kubernetes.io/app: &app nginx
+    app.kubernetes.io/name: &app nginx
     app.kubernetes.io/version: &version 1.29.3
 spec:
   replicas: 3
