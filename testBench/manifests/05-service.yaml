@@ -6,11 +6,11 @@ metadata:
   namespace: work
   labels:
     app.kubernetes.io/name: nginx
-    app.kubernetes.io/version: 1.29.3
+    app.kubernetes.io/version: 1.27.5
 spec:
   selector:
     app.kubernetes.io/name: nginx
-    app.kubernetes.io/version: 1.29.3
+    app.kubernetes.io/version: 1.27.5
   ports:
     - protocol: TCP
       port: 80
@@ -24,7 +24,7 @@ metadata:
   namespace: work
   labels:
     app.kubernetes.io/name: &app nginx
-    app.kubernetes.io/version: &version 1.29.3
+    app.kubernetes.io/version: &version 1.27.5
 spec:
   replicas: 3
   selector:
